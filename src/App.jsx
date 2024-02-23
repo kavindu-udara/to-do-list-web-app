@@ -3,25 +3,9 @@ import './App.css'
 
 function App() {
 
-  const TodoList = [
-    {
-      title: 'workout 30min'
-    }, {
-      title: 'run 1hr'
-    }, {
-      title: 'sleep 6 hours'
-    }
-  ];
+  const TodoList = [];
 
-  const finishedTodo = [
-    {
-      title: 'workout 30min'
-    }, {
-      title: 'run 1hr'
-    }, {
-      title: 'sleep 6 hours'
-    }
-  ];
+  const finishedTodo = [];
 
   const [newTodo, setNewTodo] = useState('');
   const [todoList, setTodoList] = useState(TodoList);
