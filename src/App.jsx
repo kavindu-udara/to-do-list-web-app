@@ -109,21 +109,21 @@ function App() {
   return (
     <>
       <div className="flex">
-        <div className="p-5 w-3/4 mx-auto bg-violet-300 mt-10 shadow-lg shadow-violet-500/50 rounded">
+        <div className="p-5 w-full mx-auto bg-violet-300 mt-10 shadow-lg shadow-violet-500/50 rounded sm:w-3/4">
           <div className='flex'>
-            <div className="w-1/2">
+            <div className="w-full md:w-1/2">
               <h1 className="text-4xl font-bold text-violet-500">My To Do List</h1>
               <div className="flex mt-3 text-violet-700">
-                <div className="w-1/2 text-2xl">
+                <div className="md:w-1/2 text-2xl w-full">
                   todo : {todoList.length}
                 </div>
-                <div className="w-1/2 text-2xl">
+                <div className="md:w-1/2 text-2xl w-full">
                   finished : {finishedTodoList.length}
                 </div>
               </div>
             </div>
 
-            <div className="w-1/2">
+            <div className="md:w-1/2">
               <p className="text-right cursor-pointer">
                 <i className="text-5xl bi bi-person-circle text-violet-600 mr-5"></i>
               </p>
